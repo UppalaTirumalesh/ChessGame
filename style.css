@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+.cell {
+    height: 70px;
+    width: 70px;
+    border: 1.5px solid grey;
+    border-style: inset;
+}
+
+.whitecell {
+    background-color: white;
+    text-align: center;
+}
+
+.letter {
+    color: white;
+}
+
+.blackcell {
+    background-color: black;
+    text-align: center;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+td {
+    height: 70px;
+    width: 70px;
+    border: 1.5px solid grey;
+}
+
+#clickedCell {
+    border: 1px solid black;
+    color: green;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+    left: 200px;
+    top: 320px;
+}
